@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  font-size: 1.6rem;
+  background-color: #FFEDD5;
+  font-family: 'Roboto Serif', sans-serif;
+  font-weight: 700;
+  color: #2D2C2A;
+}
+
+.page {
+  min-width: 30.0rem;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.6rem;
+}
+
+header {
+  margin: 3.2rem;
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+}
+
+h1 span {
+  color: #995000;
+}
+
+header p, main p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.4rem;
+}
+
+.grid {
+  margin-top: 1.2rem;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #FED7AA;
+  margin: 0 auto 2.4rem;
+  padding: 8px 0;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+.menu {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3, strong {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+main p {
+  line-height: 2.1rem;
+  margin-bottom: 1.6rem;
+}
+
+/*
+
+---------- QUEBRA DE LAYOUT EM 2 COLUNAS PARA DESKTOP (OPCIONAL) ----------
+
+@media (min-width: 1024px) {
+  .grid{
+    display: grid;
+    grid-template-areas: 
+    "A B";
+    gap: 4.4rem;
+    border: 2px solid blue;
+  }
+
+  .part1 {
+    grid-area: A;
+    min-width: 30.0rem;
+  }
+
+  .part2 {
+    grid-area: B;
+    min-width: 30.0rem;
+  }
+}
+
+*/
